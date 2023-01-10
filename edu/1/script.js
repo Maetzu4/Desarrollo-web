@@ -14,7 +14,7 @@ function crearLlave(nombre, modelo, precio) {
 
 let documentFragment = document.createDocumentFragment();
 
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 10; i++) {
 
     let mRamdon = Math.round(Math.random() * 10000);
     let pRamdon = Math.round(Math.random() * 10 + 30);
