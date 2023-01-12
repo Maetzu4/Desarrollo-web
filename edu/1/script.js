@@ -3,7 +3,7 @@ let contador = 0;
 
 function crearLlave(nombre, modelo, precio) {
     contador++;
-    img = `<img class = "llave-img" src = 'llave.png' alt = 'Imagen de llave ${contador}'>`;
+    let img = `<img class = "llave-img" src = 'llave.png' alt = 'Imagen de llave ${contador}'>`;
     nombre = `<h2>${nombre}</h2>`;
     modelo = `<h3'>${modelo}</h3>`;
     precio = `<p> Precio: <b>${precio}</b></p>`
@@ -14,7 +14,7 @@ function crearLlave(nombre, modelo, precio) {
 
 let documentFragment = document.createDocumentFragment();
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 25; i++) {
 
     let mRamdon = Math.round(Math.random() * 10000);
     let pRamdon = Math.round(Math.random() * 10 + 30);
